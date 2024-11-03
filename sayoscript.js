@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Samu's Script (BETA)
 // @description     Hide the advertisement section, error banners, and customize UI in the game <3
-// @version         1.3
+// @version         1.1
 // @author          Samuel Mejia Sampayo
 // @discord         samusayo
 // @match           https://gota.io/web/*
@@ -31,7 +31,7 @@
                     const userConfirmed = confirm(`Hay una nueva versión (${newVersion}) disponible. ¿Quieres actualizar?`);
                     if (userConfirmed) {
                         // Si el usuario acepta, recarga la página para aplicar los cambios
-                        location.reload(); // Recarga la página
+                        location.href = scriptUrl; // Navega al nuevo script para que el usuario lo vea y pueda copiarlo
                     }
                 }
             },
