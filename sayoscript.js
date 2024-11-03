@@ -4,8 +4,9 @@
 // @version      0.8
 // @icon         https://i.imgur.com/L0yl2aC.jpg
 // @description  Hide the advertisement section, error banners, and customize UI in the game <3
-// @author       Samu
 // @match        https://gota.io/web/*
+// @updateURL    https://raw.githubusercontent.com/samuelslol/sayo-script-/main/sayoscript.js
+// @downloadURL  https://raw.githubusercontent.com/samuelslol/sayo-script-/main/sayoscript.js
 // @grant        GM_addStyle
 // ==/UserScript==
 
