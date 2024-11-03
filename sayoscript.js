@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Samu's Script (BETA)
 // @description     Hide the advertisement section, error banners, and customize UI in the game <3
-// @version         1.4
+// @version         1.5
 // @author          Samuel Mejia Sampayo
 // @discord         samusayo
 // @match           https://gota.io/web/*
