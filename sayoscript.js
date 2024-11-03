@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Samu's Script (BETA)
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @icon         https://i.imgur.com/L0yl2aC.jpg
 // @description  Hide the advertisement section, error banners, and customize UI in the game <3
 // @discord      samusayo
@@ -33,6 +33,9 @@
                         location.reload(); // Recarga la página
                     }
                 }
+            },
+            onerror: function() {
+                console.error("Error al intentar acceder al script de actualización.");
             }
         });
     }
