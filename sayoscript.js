@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Samu's Script (BETA)
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.1
 // @icon         https://i.imgur.com/L0yl2aC.jpg
 // @description  Hide the advertisement section, error banners, and customize UI in the game <3
 // @discord      samusayo
@@ -14,7 +14,7 @@
 (function() {
     'use strict';
 
-    const currentVersion = '0.8'; // Actualiza esto con la versión actual de tu script
+    const currentVersion = '1.1'; // Actualiza esto con la versión actual de tu script
     const scriptUrl = 'https://raw.githubusercontent.com/samuelslol/sayo-script-/main/sayoscript.js';
 
     function checkForUpdate() {
@@ -28,7 +28,6 @@
                 if (newVersion !== currentVersion) {
                     const userConfirmed = confirm(`Hay una nueva versión (${newVersion}) disponible. ¿Quieres actualizar?`);
                     if (userConfirmed) {
-                        // Si el usuario acepta, recarga la página para aplicar los cambios
                         location.reload(); // Recarga la página
                     }
                 }
