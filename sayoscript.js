@@ -28,8 +28,8 @@
                 if (newVersion !== currentVersion) {
                     const userConfirmed = confirm(`Hay una nueva versión (${newVersion}) disponible. ¿Quieres actualizar?`);
                     if (userConfirmed) {
-                        // Si el usuario acepta, recarga la página
-                        location.reload(); // Recarga la página para aplicar los cambios
+                        // Si el usuario acepta, recarga la página para aplicar los cambios
+                        location.reload(); // Recarga la página
                     }
                 }
             }
