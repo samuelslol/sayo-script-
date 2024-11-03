@@ -1,9 +1,10 @@
 // ==UserScript==
 // @name         Samu's Script (BETA)
 // @namespace    http://tampermonkey.net/
-// @version      0.8
+// @version      0.9
 // @icon         https://i.imgur.com/L0yl2aC.jpg
 // @description  Hide the advertisement section, error banners, and customize UI in the game <3
+// @discord      samusayo
 // @match        https://gota.io/web/*
 // @updateURL    https://raw.githubusercontent.com/samuelslol/sayo-script-/main/sayoscript.js
 // @downloadURL  https://raw.githubusercontent.com/samuelslol/sayo-script-/main/sayoscript.js
